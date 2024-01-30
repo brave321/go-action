@@ -43,6 +43,7 @@ func main()  {
 	log.SetOutput(logFile)
 
     log.Println("这是一条很普通的日志")
+    log.Println("这是一条很普通的日志")
 	log.Println("这是一条很普通的日志")
 
 }
