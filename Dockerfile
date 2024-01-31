@@ -5,6 +5,7 @@ FROM nginx:1.21
 
 # 复制静态文件到容器的指定目录（假设你有静态文件）
 COPY hi.html /usr/share/nginx/html
+COPY hello.html /usr/share/nginx/html
 
 # 设置环境变量（如果需要）
 
